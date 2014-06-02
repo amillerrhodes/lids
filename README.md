@@ -1,0 +1,1 @@
+LIDS is a Lightweight Intrusion Detection System. It receives alerts from iptables rules with the NFLOG target. Packets that match one of the NFLOG rules are passed to LIDS via netlink. LIDS then parses the packets and stores relevant information in a sqlite database. The sqlite database can be processed with external scripts (see lids\_client.py). 
